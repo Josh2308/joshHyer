@@ -1,0 +1,199 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav img{
+    width: 100px;
+}
+nav{
+    background-color: white;
+}
+nav ul li:last-child a:hover{
+    text-decoration: underline;
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+}
+#navbar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar ul li a{
+    font-size: 15px;
+}
+#navbar{
+    background-color: #eef1ef;
+}
+nav button{
+    border-color: blueviolet;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 1px solid rgb(28, 28, 66);
+    color: black;
+}
+nav button a{
+    font-weight: 450;
+    color: black;
+}
+nav button a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.first-sec{
+    background: url('shake3.jpg');
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+
+    
+}
+.sub-sec-div{
+    display: flex;
+    height: 80%;
+    
+    padding-left: 50px;
+    align-items: center;
+    color: white;
+}
+.sub-sec-div h1{
+    font-size: 60px;
+}
+.seccc{
+    display: flex;
+    flex-direction: row;
+}
+.sec11{
+    display: flex;
+    justify-content: space-around;
+}
+.second-sec{
+    width: 50%;
+}
+.xu{
+    width: 100%;
+}
+.sub-worksec small{
+    line-height: 20px;
+}
+.worksec small{
+    font-weight: bold;
+}
+.worksec img{
+    padding-bottom: 25px;
+}
+.worksec small{
+    padding-bottom: 10px;
+}
+.sub-worksec {
+    width: 100%;
+}
+.sub-foot{
+    justify-content: space-between;
+    
+}
+.subb p{
+    line-height: 20px;
+}
+.copy{
+    justify-content: space-between;
+}
+.footer{
+    
+    background: linear-gradient(109.6deg, rgb(223, 234, 247) 11.2%, rgb(244, 248, 252) 91.1%);
+}
+.sub-footer{
+    display: none;
+}
+
+.tex a, .tex a:hover, .tex a:active{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px){
+   .sub-sec-div{
+        padding-left: 0;
+        height: 70%;
+   }
+   .sub-sec-div h1{
+    font-size: 50px;
+    text-align: center;
+   }
+   .sec11{
+    flex-direction: column;
+   }
+   .second-sec{
+    text-align: center;
+    width: 100%;
+   }
+   .sub-foot{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subb{
+    width: 50%;
+}
+.worksec img{
+    width: 100%;
+    padding-top: 20px;
+}
+.worksec{
+    flex-direction: column;
+    column-gap: 15px;
+}
+   .sec11 h6{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+   }
+   .xu textarea{
+    width: 100%;
+    }
+    form div{
+        padding: 10px 0;
+    }
+}
+@media screen and (min-width:230px) and (max-width:320px){
+    .ddd{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .ddd p{
+        width: 35%;
+    }
+}
+
+
+.card-body a, .card-body a:hover, .card-body a:active, .card-header a, .card-header a:hover, .card-header a:active{
+    color: white;
+    text-decoration: none;
+}
+.car a, .car a:hover, .car a:active, .ca a, .ca a:hover, .ca a:active{
+    color: black;
+    text-decoration: none;
+}
+#section1ContentId .card-body{
+    background-color: rgba(78, 121, 172, 0.6);
+}
+#section2ContentId .card-body{
+    background-color: rgba(96, 77, 141, 0.6);
+}
+.card-body{
+    background-color: rgba(166, 166, 166, 0.6);
+}
+.cards a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#accordianId{
+    background-color: #5e5e5e;
+}

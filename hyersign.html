@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="hyersign.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoshHyer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Poppins:wght@300&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bsjq/bootstrap.min.css">
+    <script src="bsjq/jquery-3.6.1.js"></script>
+    <script src="bsjq/popper.min.js"></script>
+    <script src="bsjq/bootstrap.min.js"></script>
+    <script src="bsjq/typed (1).js"></script>
+</head>
+<body>
+    <section class="py">
+        <div class="contain">
+            <div class="imgg1 d-xl-flex d-none"><img src="hyer.png" alt="" width="150px"></div>
+            <div class="signup">    
+                <div class="hyersign">
+                    <div class="head">
+                        <div class="imgg d-xl-none"><img src="hyer.png" alt="" width="150px"></div>
+                        <h2>Welcome to Hyer</h2>
+                        <p>Please enter your email address and phone mumebr to proceed</p>
+                    </div>
+                    
+                    <form>
+                        <div class="form-group col-11">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <div class="inputField">
+                            <input type="email" class="form-control" id="input" aria-describedby="emailHelp" placeholder="Enter email">
+                          </div>
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group col-11">
+                            <div class="pass d-flex justify-content-between">
+                                <label for="exampleInputPassword1">Password</label>
+                                <label for="exampleInputPassword1"><a href="#" style="text-decoration: underline;color: black;">Forgot Password</a></label>
+                            </div>
+                            <div class="inputField">
+                                <span class="no no1"><div class="fa fa-eye"></div></span>
+                                <input type="password" class="form-control inp" id="input" placeholder="Password">
+                            </div>
+                            
+                        </div>
+                    </form>
+                    <div class="login col-11 mx-auto my-5">
+                        Login
+                    </div>
+                    <div class="or col-11 mx-auto">
+                        <div class="line">or</div>
+                    </div>
+                    <div class="office col-11 mx-auto">
+                        <img src="download.png" alt="">
+                        Sign in with Ofice 365
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="cario" class="d-xl-block d-none">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="width: 15px;height: 15px;border-radius: 50%;"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1" style="width: 15px;height: 15px;border-radius: 50%;"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2" style="width: 15px;height: 15px;border-radius: 50%;"></li>
+            </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img  src="ttt.jpg" class="carousel-img" alt="Third slide" width="100%" height="520px">
+                           <div class="carousel-caption">
+                            <h1>Hyer</h1>
+                           </div>
+                    </div>
+    
+    
+                    <div class="carousel-item">
+                        <img  src="office.jpg" class="carousel-img" alt="Third slide" width="100%" height="520px">
+                            <div class="carousel-caption">
+                                <h1>Hyer</h1>
+                                    <p></p>
+                                    <div class="pt-5">
+                                        
+                                    </div>
+                                </div>
+                    </div>
+    
+    
+                        <div class="carousel-item">
+                            <img  src="4k.jpg" class="carousel-img" alt="Third slide" width="100%" height="520px">
+                                <div class="carousel-caption">
+                                    <h1>Hyer</h1>
+                                        <p></p>
+                                        <div class="pt-5">
+                                            
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+              </div>
+        </div>
+    
+    </section>
+
+
+
+    <script>
+        let inp = document.querySelector("inp")
+        let eyediv = document.querySelector(".no")
+        let eye = document.querySelector(".no > .fa")
+
+        eyediv.addEventListener("click", function() {
+                eye.classList.toggle("fa-eye")
+                eye.classList.toggle("fa-eye-slash")
+
+                if (eye.classList.contains("fa-eye-slash")) {
+                    $(".inp").attr("type", "text")
+                }
+                if (eye.classList.contains("fa-eye")) {
+                    $(".inp").attr("type", "password")
+                }
+        })
+    </script>
+</body>
+</html>

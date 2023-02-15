@@ -1,0 +1,137 @@
+.circle{
+    border-radius: 50%;
+    height: 100px;
+    border: 2px solid purple;
+    width: 100px;
+    position: relative;
+}
+.robbb{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.help{
+    position: relative;
+    width: 100%;
+}
+.sub-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.circle i{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 50px;
+}
+.help:hover .circle{
+    background-color: purple;
+    transition: .8s;
+    color: white;
+}
+.helptext{
+    color: red;
+    width: 100%;
+}
+.helptext span{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.helptext p{
+    font-size: 25px;
+    text-align: center;
+}
+.help p{
+
+    opacity: 0;
+    left: 60%;
+}
+.help span:nth-child(1){
+    text-align: center;
+    right: 60%;
+    
+
+}
+.help:hover p{
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    transition: left .5s;
+    top: 35%;
+}
+.help:hover span:nth-child(1){
+    right:70%;
+    opacity: 0;
+
+}
+
+/*
+.help{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.circle{
+    font-size: 90px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #423873;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #423873;
+    position: relative;
+    left: 20px;
+    transition: 0.4s;
+}
+.help:hover > .circle{
+    background-color: #423873;
+    color: white;
+}
+.helptext{
+    overflow: hidden;
+    font-size: 20px;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    position: relative;
+}
+
+.helptext span:nth-child(2){
+    position: absolute;
+    transition: left  cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-align: center;
+    left: 70%;
+    top: 0%;
+    opacity: 0;
+    width: 100%;
+    color: #423873;
+    height: 100%;
+}
+.helptext span:nth-child(1){
+    position: absolute;
+    transition: left 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-align: center;
+    left: 0%;
+    top: 0%;
+    opacity: 1;
+    width: 100%;
+    color: #423873;
+    height: 100%;
+}
+.help:hover > .helptext span:nth-child(2){
+    left: 0%;
+    opacity: 1;
+}
+.help:hover > .helptext span:nth-child(1){
+    left: -80%;
+    opacity: 0;
+}

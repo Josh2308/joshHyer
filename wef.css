@@ -1,0 +1,714 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav img{
+    width: 130px;
+}
+nav{
+    background-color: white;
+}
+nav ul li:last-child a:hover{
+    text-decoration: underline;
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+}
+#navbar ul li{
+    font-size: 20px;
+}
+#navbar{
+    background-color: #eef1ef;
+}
+.carousel-item img{
+    background-size: contain;
+}
+.carousel h1{
+    font-size: 60px;
+}
+.carousel p{
+    font-size: 27px;
+    font-weight: bolder;
+}
+.carousel button{
+    border-color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    font-weight: bolder;;
+}
+.carousel button:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+nav button{
+    font-weight: 500;
+    border-color: purple;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+}
+.sub-section-2{
+    display: flex;
+}
+
+hr {
+    width: 50%;
+    height: 10px;
+    color: green;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+.busi-benefits i{
+    font-size: 20px;
+    color: gray;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 10px;
+    max-height: 40px;
+    max-width: 40px;
+    transform-origin: top right;
+    border: 1px solid gray;
+}
+.busi-benefits i:hover{
+    background-color:  rgb(82, 21, 82);
+    transition: .8s;
+    color: white;
+}
+.busi-benefits button{
+    color: grey;
+    background-color: white;
+    border: 1px solid  rgb(82, 21, 82);
+    border-radius: 20px;
+}
+.busi-benefits button:hover{
+    background-color: rgb(82, 21, 82);
+    color: white;
+    transition: .8s;
+}
+.busi-benefits h5{
+    font-size: 15px;
+    width: 68%;
+    line-height: 20px;
+    font-weight: normal;
+}
+.busi-benefits h2{
+    font-weight: normal;
+}
+.busi-benefits img{
+    width: 50%;
+}
+.busi-ben i{
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 15px;
+    border: 1px solid white;
+}
+.busi-ben button{
+    color: grey;
+    background-color: white;
+    font-size: 20px;
+    
+    border: 2px solid  white;
+    border-radius: 30px;
+}
+.busi-ben button:hover{
+    background-color: transparent;
+    color: white;
+    transition: .8s;
+}
+.busi-ben h5{
+    font-size: 15px;
+    width: 90%;
+    line-height: 20px;
+    font-weight: normal;
+}
+.busi-ben .users{
+    padding-top: 15px;
+}
+.busi-ben h2{
+    font-weight: normal;
+}
+.busi-ben i{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 10px;
+    max-height: 40px;
+    max-width: 40px;
+    transform-origin: top right;
+    border: 1px solid white;
+}
+.busi-ben i:hover{
+    background-color:  white;
+    transition: .8s;
+    color: rgb(137, 137, 201);
+}
+.workdone{
+    color: white;
+    background: url('shake3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.spo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sponss{
+    background: linear-gradient(to left,  #333 0%,#eee 100%, #333 75%);
+}
+.worksec{
+    display: flex;
+   width: 100%;
+    line-height: 30px;
+    justify-content: space-around;
+}
+.sub-worksec small{
+    line-height: 20px;
+}
+.worksec small{
+    font-weight: bold;
+}
+.worksec img{
+    padding-bottom: 25px;
+}
+.worksec small{
+    padding-bottom: 10px;
+}
+.sub-worksec {
+    width: 100%;
+}
+.sub-foot{
+    justify-content: space-between;
+    
+}
+.subb p{
+    line-height: 20px;
+}
+.copy{
+    justify-content: space-between;
+}
+.footer{
+    
+    background: linear-gradient(109.6deg, rgb(223, 234, 247) 11.2%, rgb(244, 248, 252) 91.1%);
+}
+.sub-footer{
+    display: none;
+}
+
+.tex a, .tex a:hover, .tex a:active{
+    color: black;
+    text-decoration: none;
+}
+.dropdown-menu{
+    background-color: purple;
+    
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .benefits{
+       color: white;
+    }
+   
+}
+@media screen and (min-width:360px) and (max-width:1024px){
+    .wrapper2{
+        justify-content: space-between;
+        display: flex;
+    }
+    .sub-foot{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .subb{
+        width: 50%;
+    }
+    .worksec img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .worksec{
+        flex-direction: column;
+        column-gap: 15px;
+    }
+    
+    .hyerlife img{
+        width: 150px;
+    }
+    .spo img{
+        width: 130px;
+        padding-top: 30px;
+    }
+    .spo{
+        flex-direction: column;
+    }
+    .workdone{
+        display: none;
+    }
+
+    .happyTaskers{
+        padding-top: 25px;
+    }
+    .exp{
+        transition: 0.3s;
+    }
+    .exp:hover{
+        transform: scale(1.1);
+    }
+    
+    
+    /**/
+    .downtext h3{
+        letter-spacing: 3px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    #download{
+        height: 50px;
+    }
+    .exp{
+        width: 50px;
+    }
+    .downloadimg{
+        display: flex;
+        justify-content: space-around;
+    }
+    .downloadimg img{
+        width: 120px;
+    }
+    .busi-ben{
+        position: relative;
+    }
+    .busi-ben img{
+        width: 100%;
+        position: absolute;
+        top:10%;
+    }
+    .wraapper{
+        padding-top: 80%;
+    }
+    .busi-ben{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .busi-ben i{
+        font-size: 20px;
+        color: white;
+        background-color: transparent;
+        border-radius: 50%;
+        padding: 10px;
+        max-height: 60px;
+        max-width: 60px;
+        transform-origin: top right;
+        border: 1px solid white;
+    }
+    .busi-ben button{
+        color: grey;
+        background-color: white;
+        font-size: 20px;
+        padding-bottom: 30px;
+        border: 2px solid  white;
+        border-radius: 30px;
+    }
+    .buttonn{
+        padding-bottom: 30px;
+    }
+    .busi-ben button:hover{
+        background-color: transparent;
+        color: white;
+        transition: .8s;
+    }
+    .busi-ben h5{
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        line-height: 20px;
+        font-weight: normal;
+    }
+    .busi-ben .users h5{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 10px;
+
+    }
+    .busi-ben h2{
+            text-align: center;
+            font-weight: 500;
+        font-weight: normal;
+    }
+    .busi-ben .users i{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding: auto;
+        margin: 0 auto;
+    }
+    .busi-ben .users{
+        flex-direction: column;
+    }
+    .busi-ben i{
+        font-size: 20px;
+        color: white;
+        background-color: transparent;
+        border-radius: 50%;
+        padding: 15px;
+        border: 1px solid white;
+    }
+    .busi-benefits{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .busi-benefits img{
+        width: 100%;
+    }
+    .benefits button{
+        color: grey;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+    .busi-benefits h2{
+        text-align: center;
+        font-weight: 500;
+    }
+    .busi-benefits h5{
+        width: 100%;
+        text-align: center;
+    }
+    .busi-benefits .users{
+        flex-direction: column;
+    }
+    .busi-benefits .users i{
+        padding: 0 auto;
+    }
+    .busi-benefits i{
+        font-size: 20px;
+        background-color: transparent;
+        border-radius: 50%;
+        height: 50px;
+        padding: auto;
+        
+        width: 50px;
+        border: 1px solid grey;
+    }
+    .busi-benefits .users h5{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 10px;
+
+    }
+    .busi-benefits .users i{
+        margin: 0 auto;
+    }
+    .sub-container h1{
+        font-size: 30px;
+    }
+    .sub-container h5{
+        width: 100%;
+        line-height: 40px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .carousel h1{
+        width: 100%;
+        font-size: 17px;
+    }
+    .carousel p{
+        width: 100%;
+        font-size: 13px;
+    }
+    .carousel-item div img{
+        width: 120px;
+    }
+    .carousel button{
+        margin-top: 5px;
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+    .carousel-img{
+        width: 100%;
+        
+        height: 300px;
+    }
+}
+@media screen and (min-width:240px) and (max-width:359px){
+    .wrapper2{
+        justify-content: space-between;
+        display: flex;
+    }
+    .sub-foot{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .subb{
+        width: 50%;
+    }
+    .h4h4{
+        padding-top: 45px;
+    }
+   
+    .worksec img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .worksec{
+        flex-direction: column;
+        column-gap: 15px;
+    }
+    .hyerlife img{
+        width: 150px;
+    }
+    .spo img{
+        width: 130px;
+        padding-top: 30px;
+    }
+    .spo{
+        flex-direction: column;
+    }
+    .workdone{
+        display: none;
+    }
+    .downtext h3{
+        letter-spacing: 3px;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    #download{
+        height: 50px;
+    }
+    .exp{
+        width: 50px;
+    }
+    .downloadimg{
+        display: flex;
+        justify-content: space-around;
+    }
+    .downloadimg img{
+        width: 120px;
+    }
+    .buttonn{
+        padding-bottom: 30px;
+    }
+    .busi-ben{
+        position: relative;
+    }
+    .busi-ben img{
+        width: 100%;
+        position: absolute;
+        top:10%;
+    }
+    .wraapper{
+        padding-top: 80%;
+    }
+    .busi-ben{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .busi-ben i{
+        font-size: 20px;
+        border-radius: 50%;
+        max-width: 60px;
+        max-height: 60px;
+        padding: 15px;
+        border: 1px solid white;
+    }
+    .busi-ben button{
+        color: grey;
+        background-color: white;
+        font-size: 20px;
+        border: 2px solid  white;
+        border-radius: 30px;
+    }
+    .busi-ben button:hover{
+        background-color: transparent;
+        color: white;
+        transition: .8s;
+    }
+    .busi-ben h5{
+        font-size: 15px;
+        width: 100%;
+        line-height: 20px;
+        font-weight: normal;
+    }
+    .busi-ben .users h5{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 10px;
+
+    }
+    .busi-ben h2{
+            text-align: center;
+            font-weight: 500;
+        font-weight: normal;
+    }
+    .busi-ben .users i{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding: auto;
+        margin: 0 auto;
+    }
+    .busi-ben .users{
+        flex-direction: column;
+    }
+    .busi-ben i{
+        font-size: 20px;
+        color: white;
+        background-color: transparent;
+        border-radius: 50%;
+        padding: 15px;
+        border: 1px solid white;
+    }
+    .busi-benefits{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .busi-benefits img{
+        width: 100%;
+    }
+    .benefits button{
+        color: grey;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+    .busi-benefits h2{
+        text-align: center;
+        font-weight: 500;
+    }
+    .busi-benefits h5{
+        width: 100%;
+    }
+    .busi-benefits .users{
+        flex-direction: column;
+    }
+    .busi-benefits .users i{
+        padding: 0 auto;
+    }
+    .busi-benefits i{
+        font-size: 20px;
+        background-color: transparent;
+        border-radius: 50%;
+        height: 50px;
+        padding: auto;
+        
+        width: 50px;
+        border: 1px solid grey;
+    }
+    .busi-benefits .users h5{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 10px;
+
+    }
+    .busi-benefits .users i{
+        margin: 0 auto;
+    }
+    .sub-container h1{
+        font-size: 25px;
+    }
+    .sub-container h5{
+        width: 100%;
+        line-height: 30px;
+        font-size: 13px;
+        font-weight: bolder;
+    }
+    .carousel h1{
+        font-size: 17px;
+    }
+    .carousel p{
+    font-size: 13px;
+}
+    .carousel-item div img{
+        width: 90px;
+    }
+    .carousel-img{
+        height: 300px;
+    }
+    .carousel button{
+        margin-top: 5px;
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:990px){
+    #navbar{
+        display: none;
+    }
+}
+
+
+
+
+/*image hovers*/
+.exp{
+    transition: 0.3s;
+}
+.exp:hover{
+    transform: scale(1.1);
+}
+
+
+/**/
+.downtext{
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+#download{
+    height: 100px;
+}
+
+
+
+.card-body a, .card-body a:hover, .card-body a:active, .card-header a, .card-header a:hover, .card-header a:active{
+    color: white;
+    text-decoration: none;
+}
+.car a, .car a:hover, .car a:active, .ca a, .ca a:hover, .ca a:active{
+    color: black;
+    text-decoration: none;
+}
+#section1ContentId .card-body{
+    background-color: rgba(78, 121, 172, 0.6);
+}
+#section2ContentId .card-body{
+    background-color: rgba(96, 77, 141, 0.6);
+}
+.card-body{
+    background-color: rgba(166, 166, 166, 0.6);
+}
+.cards a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#accordianId{
+    background-color: #5e5e5e;
+}

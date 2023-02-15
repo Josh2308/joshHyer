@@ -1,0 +1,138 @@
+.signup{
+    display: flex;
+    justify-content: center;
+}
+.py .imgg1{
+    width: 100px;
+    padding-bottom: 20px;
+    position: relative;
+    left: calc(50% - 100px);
+}
+.py .imgg1 img{
+    width: 150px;
+}
+.py{
+    margin: 100px 0px;
+}
+h2{
+    font-weight: normal;
+}
+.head .imgg{
+    left: 10%;
+    position: relative;
+    margin-left: -45px;
+    padding-bottom: 20px;
+}
+.head{
+    width: 400px;
+    margin-left: 15px;
+}
+.pass{
+    width: 400px;
+}
+.inputField{
+    position: relative;
+    background-color: rgba(245, 245, 245, 0.7);
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+}
+.inputField:focus{
+    background-color: rgb(245, 245, 245);
+    border: none;
+}
+#input:focus{
+    background-color: transparent;
+}
+.inputField input{
+    background-color: transparent;
+    border: none;
+    padding: 25px;
+}
+.no .fa{
+    font-size: 20px;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 82%;
+}
+
+.login{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #103050;
+    font-weight: 700;
+    background-color: #103050;
+}
+.login:hover{
+    background-color: #174472;
+}
+
+.office{
+    border: 2px solid #103050;
+    margin-top: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.office:hover{
+    background-color: rgba(128, 128, 128, 0.3);
+}
+.office img{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.or{
+    width: 100%;
+    position: relative;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+.line{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+
+#cario{
+    height: 100%;
+    top: 0%;
+    position: fixed;
+    width: 40%;
+    right: 0;
+}
+
+#carouselExampleIndicators img{
+    height: 100vh;
+}
+
+@media (min-width: 1200px) {
+    .py{
+        max-width: 60%;
+    }
+}
+@media screen and (max-width:400px){
+    .py{
+        max-width: 70%;
+        margin: 100px auto;
+        transform: scale(0.7, 1);
+    }
+}
